@@ -36,4 +36,4 @@ LAB COMPLETED SUCCESSFULLY!
 
 ✅ Lab completed successfully
 
-Subscribe to cloudcupcake for more automated lab scripts.
+# Subscribe to cloudcupcake for more automated lab scripts.
