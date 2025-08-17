@@ -31,6 +31,21 @@ curl -LO https://raw.githubusercontent.com/ChanduCharanSample/Skills-Boost-Arcad
 chmod +x cloudcupcake1.sh
 ./cloudcupcake1.sh
 ```
+After Getting 28/30
+Run the following code:
+
+```
+gcloud compute addresses list --global
+```
+```
+
+    gcloud compute forwarding-rules create http-cr-rule \
+    --address [LB_IP_ADDRESS] \
+    --global \
+    --target-http-proxy http-lb-proxy \
+    --ports 80
+```
+
 ---
 Lab Completion
 LAB COMPLETED SUCCESSFULLY!
